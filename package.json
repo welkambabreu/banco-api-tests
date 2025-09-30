@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/**/*.test.js --timout=200000"
+    "test": "mocha ./tests/**/*.test.js --timout=200000 --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "chai": "^4.3.7",
     "mocha": "^11.7.2",
     "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4"
   }
 }
